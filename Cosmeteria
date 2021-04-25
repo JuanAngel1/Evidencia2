@@ -134,8 +134,8 @@ if respuesta_general == 1:
                     fechaactual = datetime.date.today()
                     print(f"\nSe agregaron los datos:\n {registro_ventanas} con el folio {folio_ventas} el dia {fechaactual}")
                     print("")
-                    costo_final = piezas_crema * costo_crema
-                    datos.append([folio_ventas,articulo,descripcion_cremas,piezas_crema,costo_crema,costo_final,fechaactual])
+                    costo_final = piezas_exfoliante * costo_exfoliante
+                    datos.append([folio_ventas,articulo3,descripcion_exfoliantes,piezas_exfoliante,costo_exfoliante,costo_final,fechaactual])
                     
                     resi = int(input("Deseas realizar otra compra \n (1-Si / 2-No): "))
                     if resi ==2:
